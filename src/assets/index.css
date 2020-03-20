@@ -1,0 +1,28 @@
+.plain {
+    min-width: 320px;
+    min-height: 50px;
+    font-size: 14px;
+}
+.plain-loading {
+    text-align: center;
+}
+.plain span {
+    color: #0434fc;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.plain span:hover {
+    cursor: pointer;
+}
+.publish-end-btn {
+    width: 60px;
+    padding: 2px 0;
+    text-align: center;
+    border: 1px solid #909399;
+    border-radius: 3px;
+    background-color: #409EFF;
+    color: #fff;
+    float: right;
+    margin-top: 5px;
+}

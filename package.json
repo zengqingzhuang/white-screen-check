@@ -1,0 +1,30 @@
+{
+  "name": "plain",
+  "version": "1.0.0",
+  "description": "",
+  "type": "ui",
+  "main": "./src",
+  "form": {
+    "styles": [
+      "./src/assets/index.css"
+    ]
+  },
+  "activateEvents": [
+    "plain.show"
+  ],
+  "default_locale": "zh",
+  "toolbar": [
+    {
+      "type": "dropmenu",
+      "name": "plain",
+      "text": "工具",
+      "icon": "cog",
+      "options": [
+        {
+          "text": "白屏检测",
+          "actions": "plain.show"
+        }
+      ]
+    }
+  ]
+}
